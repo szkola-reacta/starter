@@ -7,10 +7,11 @@ Będziemy potrzebowali  przeglądarki internetowej :) Polecam Chrome lub Firefox
 # Wymagania systemowe
 Sprawdź, czy w swoim systemie masz zainstalowane:
 * [git](https://git-scm.com/)
-* [node](https://nodejs.org/) w wersji 10+, 12 lub 14
+* [node](https://nodejs.org/) w wersji 14 lub 16
 * [npm](https://www.npmjs.com/) w wersji 6+
 
 Jak to zrobić?
+
 W terminalu wpisz odpowiednie polecenie:
 
 ```bash
@@ -18,6 +19,17 @@ git --version
 node --version
 npm --version
 ```
+
+Opcjonalnie można również korzystać z [YARN](https://yarnpkg.com/)
+
+Do zarządzania kilkoma wersjami node na swoim komputerzu polecam NVM
+* [Pod Linux i MacOS](https://github.com/nvm-sh/nvm)
+* [Pod Windows](https://github.com/coreybutler/nvm-windows)
+
+Terminale, jakie znajdziesz w zaleności od systemu operacyjnego to:
+* Windows: np. [PowerShell](https://docs.microsoft.com/pl-pl/powershell/scripting/overview?view=powershell-7)
+* Linux - np. w wbudowany
+* MacODS - np. wbudowany lub [iTerm2](https://www.iterm2.com/)
 
 # Uruchomienie pierwszej aplikacji
 Aby sprawdzić, czy wszystko działa u Ciebie poprawnie rekomenduję wykonać następujące polecenia:
